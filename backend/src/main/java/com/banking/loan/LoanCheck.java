@@ -1,3 +1,4 @@
+// One row of the loan_checks table in MySQL.
 package com.banking.loan;
 
 import jakarta.persistence.Entity;

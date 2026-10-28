@@ -1,3 +1,4 @@
+// Turns validation and bad-JSON errors into short, clean 400 responses.
 package com.banking.loan;
 
 import org.springframework.http.HttpStatus;

@@ -1,3 +1,4 @@
+// Requires login for all endpoints except Swagger. Allows the React app through CORS.
 package com.banking.loan;
 
 import org.springframework.context.annotation.Bean;

@@ -1,3 +1,4 @@
+// Incoming JSON body. Salary and amount must be positive.
 package com.banking.loan;
 
 import jakarta.validation.constraints.NotNull;

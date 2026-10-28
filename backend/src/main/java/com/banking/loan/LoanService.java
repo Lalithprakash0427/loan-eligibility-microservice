@@ -39,7 +39,7 @@ public class LoanService {
         boolean approved = salary.compareTo(threshold) > 0;
         String decision = approved ? "Approved" : "Rejected";
 
-        // Save every check so there is a history.
+        // Save every check so there is a history in MySQL.
         repository.save(new LoanCheck(salary, requestedAmount, decision));
 
         // Only the decision is logged. Salary is private data and must not appear in logs.
